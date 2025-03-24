@@ -4,8 +4,24 @@
 - git remote add origin <repo link> https://github.com/Ishitaap26/Git_learn.git 
 - git remote -v 
 - git branch -M main        # define branch name. here it 'main'
+- git branch                # check name of branch you are working on
 - git add . # add all files   or    git add <filename>
 - git status
 - git commit -m "first commit"
 - git push -u origin main   # push all added content on git from main to origin.
+- git checkout -b   feature-subtraction         # create new branch feature-subtraction and switch to it.
+- git branch                # check name of branch you are working on
 - 
+- git add .
+- git status
+- git commit -m "added subtraction feature"
+- git push -u origin feature-subtraction 
+- 
+- git checkout main         # switch to main branch
+- git branch
+- git pull origin main
+- git merge feature-subtraction
+- git push origin main
+- 
+- git branch -d feature-subtraction
+- git push origin --delete feature-subtraction
